@@ -1,0 +1,149 @@
+body{
+    background-image: linear-gradient(rgb(16, 107, 48), rgb(30, 215, 96), rgb(0, 209, 73));
+    background-repeat: no-repeat;
+}
+
+
+#nav-bar{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  background: rgb(18, 18, 18);
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+
+}
+
+#logo{
+  float: left;
+  padding: 5px;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
+nav a:hover{
+  color: black;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out, 250ms;
+}
+
+nav a:hover:before{
+  width: 100%;
+}
+
+
+#search_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 200px;
+    padding: 5%;
+    background: transparent;
+    top: 300px;
+}
+
+#search_bar{
+  width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  min-width:70vw;
+  padding: 20px 20px;
+  border-radius: 50px;
+}
+
+#search_bar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#search_bar button img{
+  width: 25px;
+}
+
+#search_bar button{
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: rgb(255, 255, 255);
+  cursor: crosshair;
+}
+
+#display-wrap{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: transparent;
+  border-radius: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#inside_display{
+  color: white;
+  border-radius: 50px;
+  background-color: rgb(18, 18, 18);
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+  min-width:40vw;
+  height: 250px;
+  padding: 5px;
+  margin: 10px;
+  line-height: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#footer{
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(18, 18, 18);
+  color: rgb(30, 215, 96);
+  text-align: center;
+}
