@@ -1,54 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Valorant Stats</title>
-        <meta http-equiv="refresh" content="10">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unofficial Spotify Music Tracker</title>
         <link rel="stylesheet" href="spotify_tracker_styling.css"/>
+        <script src="spotify_tracker_sripting.ts" type="module"></script>
+        <!--script src="Top_Items.ts" type="module"></script-->
+
+        <link href="https://fonts.googleapis.com/css?family=K2D:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" />
+
     </head>
     <body>
+
         <header>
             <div id="nav-bar">
-                <img src="Spotify_testing.png" alt="logo" id="logo">]
-                
+                <img src="img/RyanFellDown_Tracker.png" style = "width: 400px; height: 85px;" alt="logo" id="logo">]
+                <div class="UnofficialSpotifyMusicTracker"></div>
                 <nav>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Profile</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Settings</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <p></p>
-        <div id="search_box">
-            <!-- form action="" id="search_bar" -->
-                <input id="search-here" type="text" placeholder="Enter user ID..." name="q">
-                <button id="submit"><img src="C:\Users\rfell\Downloads\site stuff\Better-Search.jpg"></button>
-                <ul>
-                    <!-- the displayNames of agents listed here? -->
+        <section id = "profile">
+            <div class="Container_Box" style="width: 95vw; min-height: 60%; left: 1.5vw; top: 28%; position: absolute; mix-blend-mode: multiply; background: #D9D9D9;">
+                <div id="center_name">
+                        <h1>User: <span id="displayName"></span></h1>
+                </div>
+                <ul id="MainOutputBox">
+                    <li id="inside_display">
+                        Profile Picture
+                        <!--section id = "topItems">
+                            <span id="test"></span>
+                        </section-->
+                        <span id="avatar"></span>
+                    </li>
+                    <li id="inside_display">
+                        User's ID
+                        <span id="id"></span>
+                    </li>
+                    <li id="inside_display">
+                        User's Email Address
+                        <span id="email"></span>
+                    </li>
+                    <li id="inside_display">
+                    </li>
+                    <li id="inside_display">
+                        Profile Image URL
+                        <span id="imgURL"></span>
+                    </li>
+                    <li id="inside_display">
+                        
+                    </li>
+                    <li id="User_Profile">
+                        <!--section id = "profile">
+                            User Profile: <a id="uri" href = "#"></a>
+                        </section-->
+                        <!--section id = "topItems">
+                            <h2>The next URL is: <span id="next"></span></h2>
+                        </section-->
+                        User Profile: <a id="uri" href = "#"></a>
+                    </li>
+                    <li id="User_Profile">
+                        <!--section id = "profile">
+                            User Profile: <a id="uri" href = "#"></a>
+                        </section-->
+                        <!--section id = "topItems">
+                            <h2>The next URL is: <span id="next"></span></h2>
+                        </section-->
+                        User's API Address: <a id="url" href = "#"></a>
+                    </li>
                 </ul>
-                <script src="./Test_Stats.js"></script>
-            <!-- /form -->
-        </div>
-        <p></p>
-        <ul id="display-wrap">
-            <li id="inside_display">
+            </div>
+        </section>
 
-            </li>
-            <li id="inside_display">
+        <footer>
+            <div id="Footer">
+                <p>@RyanFellDown</p>
+            </div>
+        </footer>
 
-            </li>
-            <li id="inside_display">
-
-            </li>
-            <li id="inside_display">
-                
-            </li>
-        </ul>
-        <div id="footer">
-            <p>@RyanFellDown</p>
-        </div>
     </body>
 </html>
