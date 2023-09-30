@@ -92,10 +92,12 @@ nav a:hover:before{
   text-align: center;
   color: #FFF;
   font-family: K2D;
-  font-size: 28px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  display: flex; 
+  justify-content: center; 
 }
 
 
@@ -113,22 +115,113 @@ nav a:hover:before{
   color: rgb(0, 0, 0);
   font-family: K2D;
   border: 2px solid rgb(0, 0, 0);
+  border-image: linear-gradient(rgb(64,101,128), rgb(235,91,117))5;
   width: 25%;
-  min-height: 75px;
-  max-height: 100px;
-  padding: 15px;
+  min-height: 90px;
+  max-height: 110px;
+  padding: 17px;
   margin: 10px;
   font-weight: bold;
   text-align: center;
   word-wrap: break-word;
 }
 
-#avatar{
-  height: 50px; 
-  width: 50px; 
-  display: flex; 
-  justify-content: center; 
-  padding-left: 10vw;
+#followed_artist_1{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
+  text-decoration: underline;
+}
+#followed_artist_2{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
+  text-decoration: underline;
+}
+#followed_artist_3{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+#top_song1{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  font-style: italic;
+  line-height: normal;
+}
+#top_song_artist{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+#top_artists1{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: normal;
+}
+#top_artists2{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: normal;
+}
+
+#top_artists3{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: normal;
+}
+
+#top_song1_2{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: normal;
+}
+#top_song2{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: normal;
+}
+#top_song3{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: normal;
+}
+
+#recent_save{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  font-style: italic;
+  line-height: normal;
+}
+
+#recent_save_artist{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: normal;
 }
 
 #id{
