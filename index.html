@@ -18,63 +18,110 @@
                 <div class="UnofficialSpotifyMusicTracker"></div>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="http://localhost:5173/callback">Home</a></li>
                         <li><a href="#">About</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <section id = "profile">
-            <div class="Container_Box" style="width: 95vw; min-height: 60%; left: 1.5vw; top: 28%; position: absolute; mix-blend-mode: multiply; background: #D9D9D9;">
-                <div id="center_name">
-                        <h1>User: <span id="displayName"></span></h1>
-                </div>
+        <div id="center_name">
+            User: <section id = "profile">
+                <span id="displayName"></span>
+            </section>
+        </div>
+            <div class="Container_Box" style="width: 95vw; min-height: 60%; left: 1.5vw; top: 31%; position: absolute; mix-blend-mode: multiply; background: #D9D9D9;">
                 <ul id="MainOutputBox">
                     <li id="inside_display">
-                        Profile Picture
-                        <!--section id = "topItems">
-                            <span id="test"></span>
-                        </section-->
-                        <span id="avatar"></span>
+                        Most Played Song: 
+                        <section id = "topSong">
+                            <span id="top_song1"></span>
+                            by
+                            <span id="top_song_artist"></span>
+                            <p></p>
+                            <span id="top_song_preview"></span>
+                        </section>
                     </li>
+
                     <li id="inside_display">
-                        User's ID
-                        <span id="id"></span>
+                        Favorite Artists: 
+                        <section id = "topArtists">
+                            <span id="top_artists1"></span>,
+                            <span id="top_artists2"></span>, and 
+                            <span id="top_artists3"></span>
+                        </section>
                     </li>
+
                     <li id="inside_display">
-                        User's Email Address
-                        <span id="email"></span>
+                        Followed Artists: 
+                        <section id="relatedArtistsAndGenres">
+
+                            <span id="followed_artist_1"></span>, Genre: 
+                            <span id="related_genre_1"></span>,
+                            
+                            <span id="followed_artist_2"></span>, Genre: 
+                            <span id="related_genre_2"></span>, and
+
+                            <span id="followed_artist_3"></span>, Genre: 
+                            <span id="related_genre_3"></span>
+                        </section>
                     </li>
+
                     <li id="inside_display">
+                        New Saved Albums: 
+                        <section id = "savedAlbums">
+                            <span id="saved_album_1"></span>,
+                            <span id="saved_album_2"></span>, and 
+                            <span id="saved_album_3"></span>
+                        </section>
                     </li>
+
                     <li id="inside_display">
-                        Profile Image URL
-                        <span id="imgURL"></span>
+                        Top Songs Popularity: 
+                        <section id = "topSong">
+                            <span id="top_song1_2"></span>: 
+                            <span id="top_song_popularity1"></span>
+                            <p></p>
+                            <span id="top_song2"></span>: 
+                            <span id="top_song_popularity2"></span>
+                            <p></p>
+                            <span id="top_song3"></span>: 
+                            <span id="top_song_popularity3"></span>
+                        </section>
+
                     </li>
+
                     <li id="inside_display">
+                        Recently Saved Song: 
+                        <section id = "topThings">
+                            <span id="recent_save"></span>
+                            by 
+                            <span id="recent_save_artist"></span>
+                            <p>
+                                Genres: 
+                                <span id="recent_save_genres"></span>
+                            </p>
+                        </section>
+
+                    </li>
+
+                    <li id="User_Profile">
+                        User Profile: 
+                        <section id = "profile">
+                            <a id="uri" href = "#"></a>
+                        </section>
+                    </li>
+
+                    <li id="User_Profile">
+                        User's API Address: 
+                        <section id = "profile">
+                            <a id="url" href = "#"></a>
+                        </section>
                         
                     </li>
-                    <li id="User_Profile">
-                        <!--section id = "profile">
-                            User Profile: <a id="uri" href = "#"></a>
-                        </section-->
-                        <!--section id = "topItems">
-                            <h2>The next URL is: <span id="next"></span></h2>
-                        </section-->
-                        User Profile: <a id="uri" href = "#"></a>
-                    </li>
-                    <li id="User_Profile">
-                        <!--section id = "profile">
-                            User Profile: <a id="uri" href = "#"></a>
-                        </section-->
-                        <!--section id = "topItems">
-                            <h2>The next URL is: <span id="next"></span></h2>
-                        </section-->
-                        User's API Address: <a id="url" href = "#"></a>
-                    </li>
+
                 </ul>
             </div>
-        </section>
+
 
         <footer>
             <div id="Footer">
