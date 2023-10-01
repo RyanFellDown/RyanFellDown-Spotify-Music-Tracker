@@ -6,9 +6,7 @@ html{
 body{
     background-image: linear-gradient(rgb(64,101,128), rgb(235,91,117));
     background-repeat: no-repeat;
-
 }
-
 
 #nav-bar{
   width: 90%;
@@ -74,6 +72,29 @@ nav a::before{
 
 nav a:hover:before{
   width: 100%;
+}
+
+#HelpSection{
+  padding-top: 10px;
+  position: relative;
+  text-align: Left;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-family: K2D;
+  font-weight: 700;
+  word-wrap: break-word;
+  line-height: 2;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#AboutPart{
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: K2D;
+  word-wrap: break-word;
+  font-weight: 450;
+  line-height: 1.3;
 }
 
 #UnofficialSpotifyMusicTracker{
